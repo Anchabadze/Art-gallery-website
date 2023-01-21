@@ -5,6 +5,8 @@ body {
 }
 
 
+/* Gallery slyles start */
+
 .gallery {
     position: relative;
     margin-bottom: 7.5rem;
@@ -76,3 +78,48 @@ body {
     width: 3.5rem;
     height: 4.5rem;
 }
+
+/* Gallery slyles end */
+
+/* Main styles start */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 10rem 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: stretch;
+    gap: 0.6875rem;
+    grid-template-areas: "b-text img-md img-md"
+                        "img-bd img-bd img-sm"
+                        "img-bd img-bd w-text";
+    padding: 0 165px;
+}
+
+.main__wrapper_bl {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    grid-area: b-text;
+}
+
+.main__title_bl {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-bottom: 2rem;
+}
+
+.main__text_bl {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+
+
+
+/* Main styles end */
+
