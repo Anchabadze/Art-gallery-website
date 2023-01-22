@@ -21,7 +21,6 @@ body {
 
 .gallery__wrapper {
     display: flex;
-    /* justify-content: space-between; */
     position: absolute;
     max-width: 80%;
     max-height: 300px;
@@ -86,23 +85,23 @@ body {
 .main {
     display: grid;
     grid-template-columns: 1fr 10rem 1fr;
-    grid-template-rows: 1fr auto 1fr;
-    align-items: stretch;
-    gap: 0.6875rem;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
     grid-template-areas: "b-text img-md img-md"
                         "img-bd img-bd img-sm"
                         "img-bd img-bd w-text";
     padding: 0 165px;
+    margin-bottom: 180px;
 }
 
-.main__wrapper_bl {
+.main__textwrapper_b {
     display: flex;
-    max-width: 350px;
     flex-direction: column;
     grid-area: b-text;
+    width: 350px;
 }
 
-.main__title_bl {
+.main__title_b {
     font-weight: 900;
     font-size: 60px;
     line-height: 60px;
@@ -111,7 +110,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.main__text_bl {
+.main__text_b {
     font-family: 'Outfit';
     font-weight: 300;
     font-size: 22px;
@@ -119,6 +118,46 @@ body {
     color: #444444;
 }
 
+.main__img_md {
+    background: url(../img/desktop/image-grid-1.jpg) center/cover;
+    grid-area: img-md;
+}
+
+.main__img_bg {
+    background: url(../img/desktop/image-grid-2.jpg) center/cover;
+    grid-area: img-bd;
+}
+
+.main__img_sm {
+    background: url(../img/desktop/image-grid-3.jpg) center/cover;
+    grid-area: img-sm;
+}
+
+.main__textwrapper_w {
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    grid-area: w-text;
+    padding: 65px 48px;
+}
+
+.main__title_w {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.main__text_w {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+}
 
 
 /* Main styles end */
