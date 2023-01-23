@@ -159,6 +159,30 @@ body {
     line-height: 32px;
 }
 
-
 /* Main styles end */
+
+/* Footer styles start */
+
+footer {
+    display: flex;
+    padding: 80px 165px;
+    background-color: #151515;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 430px;
+}
+
+.footer__inst {
+    margin: 0 20px;
+}
+
+/* Footer styles end */
 
