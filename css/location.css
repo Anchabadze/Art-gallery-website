@@ -38,3 +38,59 @@
 }
 
 /* Map styles end */
+
+/* Location styles start */
+
+.location {
+    /* height: 38vw; */
+    background: #151515;
+    padding: 104px 165px 128px 165px;
+}
+
+.location__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location__title {
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.location__wrapper {
+    margin-left: 220px;
+}
+
+.location__wrapper h4 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+    margin-bottom: 24px;
+}
+
+.location__address {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.location__descr {
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+
+/* Location styles end */
