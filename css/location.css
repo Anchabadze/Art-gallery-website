@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
 
 /* Map styles start */
 
+.map {
+    background: url(../img/desktop/image-map@2x.png) center/cover;
+    height: 40vw;
+}
 
+.map__link {
+    display: flex;
+    background-color: black;
+    width: 16.25rem;
+    align-items: center;
+    height: 4.5rem;
+    margin-left: 135px;
+}
+
+.map__btn {
+    font-family: Big Shoulders Display;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.map__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5966c;
+    width: 3.5rem;
+    height: 4.5rem;
+}
 
 /* Map styles end */
