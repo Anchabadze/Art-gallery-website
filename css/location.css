@@ -18,6 +18,18 @@
     text-decoration: none;
 }
 
+.map__btn-hover:hover,
+.map__btn-hover:focus,
+.map__btn-hover:active {
+    background-color: #d5966C;
+}
+
+.map__btn-hover:hover .map__arrow,
+.map__btn-hover:focus .map__arrow,
+.map__btn-hover:active .map__arrow {
+    background-color: black;
+}
+
 .map__btn-text {
     font-family: Big Shoulders Display;
     font-weight: 800;
