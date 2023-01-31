@@ -49,22 +49,23 @@ body {
     margin-bottom: 64px;
 }
 
-.gallery__link {
+.gallery__btn {
     display: flex;
     justify-content: space-between;
     background-color: black;
     width: 16.25rem;
     align-items: center;
     height: 4.5rem;
+    text-decoration: none;
 }
 
-.gallery__btn {
+.gallery__btn-text {
+    font-family: Big Shoulders Display, sans-serif;
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 3.63636px;
+    letter-spacing: 3.6px;
     color: #FFFFFF;
-    text-decoration: none;
     text-transform: uppercase;
     margin-left: 2rem;
 }

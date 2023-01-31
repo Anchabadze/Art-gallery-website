@@ -7,23 +7,24 @@
     height: 40vw;
 }
 
-.map__link {
+.map__btn {
     display: flex;
+    justify-content: space-between;
     background-color: black;
     width: 16.25rem;
     align-items: center;
     height: 4.5rem;
     margin-left: 135px;
+    text-decoration: none;
 }
 
-.map__btn {
+.map__btn-text {
     font-family: Big Shoulders Display;
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 3.63636px;
     color: #FFFFFF;
-    text-decoration: none;
     text-transform: uppercase;
     margin-left: 2rem;
 }
